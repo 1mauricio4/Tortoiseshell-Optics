@@ -153,3 +153,33 @@ ul.nav-2 {
   text-align: left;
   margin-top: 1rem;
 }
+
+/******   Footer   ******/
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  background-color: azure;
+}
+
+.copyright {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4rem;
+}
+
+.black-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.black-logo img {
+  height: 1.5rem;
+  width: auto;
+  margin: 0 1rem 0 0;
+}
