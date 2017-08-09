@@ -12,6 +12,7 @@ body {
   height: auto;
   margin: auto;
 }
+
 /******   Header   ******/
 header {
   height: 30rem;
@@ -77,4 +78,33 @@ ul.nav-2 {
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+/******   Support   ******/
+.icons {
+  width: 100%;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.icon {
+  height: 8rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.image {
+  width: 5rem;
+  height: auto;
+}
+
+.image img {
+  width: 3.5rem;
+  height: auto;
 }
