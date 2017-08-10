@@ -93,7 +93,7 @@ ul.nav-2 {
 
 .icon {
   height: 8rem;
-  width: auto;
+  width: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,6 +108,12 @@ ul.nav-2 {
 
 .image img {
   width: 3.5rem;
+  height: auto;
+}
+
+.ruler img,
+.truck img {
+  width: 5rem;
   height: auto;
 }
 
@@ -187,7 +193,7 @@ footer {
   margin: 0 1rem 0 0;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1020px) and (min-width: 720px){
   .container {
     width: 100%;
     height: auto;
@@ -212,5 +218,98 @@ footer {
 
   body {
     padding-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    height: 17rem;
+    width: 100%;
+    padding-top: 0;
+    background-position: 20%;
+  }
+
+  .white-logo span {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    padding: 1rem;
+    top: 9rem;
+    left: 0;
+  }
+
+  .content h2 {
+    font-size: 1rem;
+  }
+
+  ul.nav-1 {
+    display: none;
+  }
+
+  ul.nav-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    padding-right: 1rem;
+  }
+
+  .icons {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem auto 2.23rem auto;
+  }
+
+  .icon {
+    margin: auto auto 1.54rem auto;
+    justify-content: center;
+    height: auto;
+  }
+
+  .image img {
+    margin-bottom: 1rem;
+  }
+
+  .icon span {
+    font-size: .77rem;
+  }
+
+  .information {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .info {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4rem;
+  }
+
+  .title {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: .5rem 0;
+  }
+
+  .info p {
+    font-size: .77rem;
+    margin-left: .35rem;
+  }
+
+  .copyright span {
+    display: none;
+  }
+
+  .black-logo {
+    margin: auto;
   }
 }
