@@ -312,4 +312,8 @@ footer {
   .black-logo {
     margin: auto;
   }
+
+  .black-logo img {
+    margin: auto;
+  }
 }
